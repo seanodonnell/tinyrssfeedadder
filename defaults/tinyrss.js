@@ -1,0 +1,1 @@
+pref("tinyrss.useVagueJargon", true);

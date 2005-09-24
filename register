@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ID="python -c 'from config import *; print uid'"
+
+pkill firefox-bin
+pwd > ~/.mozilla/firefox/*.default/extensions/{$ID}
+firefox &

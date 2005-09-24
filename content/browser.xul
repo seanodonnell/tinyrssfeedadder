@@ -1,0 +1,25 @@
+
+
+
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://tinyrss/locale/entities.dtd">
+
+<overlay
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    id="TinyRSSBrowserOverlay"
+>
+    <menupopup id="menu_ToolsPopup">
+
+        <menuitem
+            id="TinyRSSMenuItem"
+            oncommand="open('chrome://tinyrss/content/tinyrss.xul', '', 'chrome,minimizable,resizable');"
+            insertafter="javascriptConsole,devToolsSeparator"
+
+            label="&tinyrss.browser.menuitem.label;"
+            accesskey="&tinyrss.browser.menuitem.accesskey;"
+
+        />
+    </menupopup>
+</overlay>
+
+
